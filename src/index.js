@@ -4,9 +4,9 @@ import './index.css';
 import Left from './left';
 import Right from './right';
 import Footer from './footer';
-import Amplify from 'aws-amplify';
-import config from './aws-exports';
-Amplify.configure(config);
+//import Amplify from 'aws-amplify';
+//import config from './aws-exports';
+//Amplify.configure(config);
 
 class Cumulative extends React.Component {
 
