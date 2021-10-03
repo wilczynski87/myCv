@@ -30,7 +30,7 @@ class Main extends React.Component {
           <ul>
             <li>Taking file as input using BufferedReader -> assumend text may be large</li>
             <li>Uses String transformation and Regex</li>
-            <li>After some computing, algoritms frome Wikipedia, returns solution in terminal (it can be send with REST to ie other website)</li>
+            <li>After some computing (I have used algoritms from Wikipedia), returns solution in terminal (it can be send with REST to ie other website)</li>
           </ul>
           <hr />
         </div>
