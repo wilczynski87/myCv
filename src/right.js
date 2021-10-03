@@ -26,7 +26,7 @@ class Main extends React.Component {
         <div className="w3-container">
           <h5 className="w3-opacity"><b>Readability</b></h5>
           <h6 className="w3-text-teal"><i className="fa fa-microchip fa-fw w3-margin-right"></i>technology: Java</h6>
-          <p>Program check how hard to read is given text (from file) in baising on <a href="https://en.wikipedia.org/wiki/Readability">Readability theory</a></p>
+          <p>Program checks how hard to read is given text (from file) in baising on <a href="https://en.wikipedia.org/wiki/Readability">Readability theory</a></p>
           <ul>
             <li>Taking file as input using BufferedReader -> assumend text may be large</li>
             <li>Uses String transformation and Regex</li>
@@ -35,7 +35,7 @@ class Main extends React.Component {
           <hr />
         </div>
         <div className="w3-container">
-          <h5 className="w3-opacity"><b>Shere a Cab</b></h5>
+          <h5 className="w3-opacity"><b>Share a Cab</b></h5>
           <h6 className="w3-text-teal"><i className="fa fa-microchip fa-fw w3-margin-right"></i>technology: JavaScript (Cordova)</h6>
           <p>This is mobile app which faciliate to take a cab with somebody (and split costs) around University campus</p>
           <ul>
@@ -59,7 +59,7 @@ class Main extends React.Component {
         </div>
         <div className="w3-container">
           <h5 className="w3-opacity"><b>University of Wroclaw</b></h5>
-          <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right"></i>2006 - 2012</h6>
           <h6>Law</h6>
           <p>Master Degree</p>
         </div>
