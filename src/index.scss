@@ -307,6 +307,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   //padding: 20px;
   margin-right: 30px;
   margin-top: 20px;
+  margin-bottom: 30px
   width: 150px;
   height: 50px;
   transition: box-shadow .5s;
@@ -314,4 +315,10 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 }
 .cvButton:hover {
   box-shadow:0 40px 100px 0 rgba(0,0,0,0.2),0 40px 200px 0 rgba(0,0,0,0.19)
+}
+
+@media only screen and (max-width: 600px) {
+  .buttonHide {
+    display: none;
+  }
 }

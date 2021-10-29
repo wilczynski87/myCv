@@ -7,10 +7,21 @@ class Main extends React.Component {
     return(
       <div className="w3-twothird">
 
-      <div className="w3-container w3-card w3-white w3-margin-bottom">
-      <div style={{overflow: 'auto'}}> <h2 className="w3-text-grey w3-padding-16" style={{float: 'left'}}><i className="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects </h2>
-        <CvButton/>
-      </div>
+        <div className="w3-container w3-card w3-white w3-margin-bottom"> {/* div with introduction*/}
+          <h2 className="w3-text-grey w3-padding-16"><i className="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Profil</h2>
+          <div className="w3-container">
+            <p>I am a graduate of Open University in Milton Keynes. I am looking
+            for an opportunity to become a professional Software Engineer, I
+            am also interested in Cloud solutions. Furthermore, I am fluent in
+            English, also I consider myself creative, positive, and engaged. </p>
+          </div>
+        </div>
+
+      <div className="w3-container w3-card w3-white w3-margin-bottom"> {/* div with Projects*/}
+        <div style={{overflow: 'auto'}}>
+          <h2 className="w3-text-grey w3-padding-16" style={{float: 'left'}}><i className="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects </h2>
+          <CvButton />
+        </div>
         <div className="w3-container">
           <h5 className="w3-opacity"><b>ToDoList</b></h5>
           <h6 className="w3-text-teal"><i className="fa fa-microchip fa-fw w3-margin-right"></i>technology: JavaScript</h6>
